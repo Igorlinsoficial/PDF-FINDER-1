@@ -1,0 +1,119 @@
+.main {
+    background: linear-gradient(to bottom, #040f25, #030713); 
+    overflow-y: visible;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    width: 10px;
+    background: white;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(168, 167, 167);
+
+}
+.block-container {
+    padding: 0 70px 70px 70px; /* Mantém o padding nas laterais e na parte inferior, mas remove o padding superior */
+    background-color: white; /* Define a cor de fundo como branco */
+    border-radius: 10px; /* Adiciona uma borda arredondada com raio de 10px */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+}
+
+.sua-classe{
+    background-color: #040f25;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.st-emotion-cache-1pbsqtx{
+    color: rgb(255, 196, 0)
+}
+
+
+/* Ocultar a side-bar */
+
+[data-testid="stSidebar"] {
+    display: none;
+    visibility: hidden;
+}
+
+
+
+/* Ocultar a side-bar */
+
+
+.link {
+    background-color: #040f25; /* Cor de fundo do botão */
+    color: rgb(255, 255, 255) !important; /* Nova cor do texto (laranja escuro) */
+    padding: 15px 32px; /* Espaçamento interno do botão */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover decoração do texto */
+    display: flex; /* Exibir como elemento de bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 10px; /* Margem entre os botões */
+    cursor: pointer; /* Cursor do mouse */
+    border-radius: 10px;
+    border: none; /* Remove a borda */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    font-weight: bold; /* Texto em negrito */
+}
+
+
+.link:hover {
+    background-color: #030c1d; 
+    text-decoration: none; /* Altera a cor de fundo do botão quando o mouse passa por cima */
+}
+
+.goback {
+    background-color: #040f25;
+    padding: 8px 12px; /* Reduzindo o padding para diminuir o tamanho do botão */
+    color: rgb(255, 255, 255) !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* Alterando para inline-block para que o botão ocupe apenas o espaço necessário */
+    cursor: pointer;
+    font-weight: bold;
+    justify-content: center;
+    border: none;
+    margin: 4px 10px;
+    font-size: 14px; /* Reduzindo o tamanho da fonte */
+    border-radius: 10px;
+}
+
+.goback:hover {
+    background-color: #030c1d;
+    text-decoration: none;
+}
+
+.titulo{
+    color: black
+}
+
+[data-testid = 'stFileUploadDropzone']{
+   background-color: rgb(242, 242, 242);
+}
+
+[data-testid = 'stHeader']{
+    display: none;
+}
+
+[data-testid = 'stImage']{
+    margin: 0;
+    padding: 0;
+}
+
+.copyright{
+    color: #3f3f3f9c;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+}
