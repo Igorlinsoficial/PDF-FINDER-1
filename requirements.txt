@@ -3,7 +3,7 @@ PyPDF2
 pdfplumber
 fitz
 ocrmypdf
-ghostcript
+ghostscript
 pytesseract
 os
 zipfile36
