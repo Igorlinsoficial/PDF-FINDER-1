@@ -5,5 +5,4 @@ fitz
 ocrmypdf
 ghostscript
 pytesseract
-os
 zipfile36
