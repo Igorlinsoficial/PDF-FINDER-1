@@ -1,6 +1,6 @@
 [build]
   publish = "build"
-  command = "streamlit Home.py"
+  command = "streamlit run Home.py"
 
 [[redirects]]
   from = "/*"
