@@ -6,3 +6,5 @@ ocrmypdf
 ghostscript
 pytesseract
 zipfile36
+prov==2.0.1
+rdflib==5.0.0
