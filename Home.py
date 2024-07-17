@@ -1,6 +1,3 @@
-import netlify.streamlit as st 
-
-
 def main():
     
     st.header('', divider='blue')
