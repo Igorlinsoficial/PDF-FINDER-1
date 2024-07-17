@@ -1,4 +1,4 @@
-import streamlit as st
+import netlify.streamlit as st
 from PyPDF2 import PdfWriter, PdfReader
 import tempfile
 import os

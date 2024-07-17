@@ -1,4 +1,4 @@
-import streamlit as st 
+import netlify.streamlit as st 
 
 
 def main():
